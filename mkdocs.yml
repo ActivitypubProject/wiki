@@ -4,7 +4,7 @@ theme:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home 首页: index.md
   - Spec 开发规范:
     - 开发工作流规范: spec/development.md
     - 技术栈规范: spec/tech-stack.md
