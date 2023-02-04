@@ -1,3 +1,26 @@
-site_name: ActivityProject
+site_name: ActivitypubProject
 theme:
   name: material
+
+# Page tree
+nav:
+  - Home: index.md
+  - Spec 开发规范:
+    - 开发工作流规范: spec/development.md
+    - 技术栈规范: spec/tech-stack.md
+    - 代码规范: code.md
+    - Publishing your site: publishing-your-site.md
+    - Customization: customization.md
+    - Browser support: browser-support.md
+    - Philosophy: philosophy.md
+    - Alternatives: alternatives.md
+    - License: license.md
+    - Changelog:
+      - changelog/index.md
+      - How to upgrade: upgrade.md
+    - Contributing:
+      - Requesting a change: contributing/requesting-a-change.md
+    - Guides:
+      - Creating a reproduction: guides/creating-a-reproduction.md
+  - Reference:
+    - Tooltips: reference/tooltips.md
