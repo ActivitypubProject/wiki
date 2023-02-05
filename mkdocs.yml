@@ -3,10 +3,15 @@
 site_name: ActivitypubProject
 site_url: https://activitypubproject.github.io/wiki/
 
+# Repository
+repo_name: ActivitypubProject
+repo_url: https://github.com/ActivitypubProject/web
+
 # Configuration
 theme:
   name: material
-  language: en
+  # language: en
+  custom_dir: material/.overrides
   features:
     # - announce.dismiss
     - content.action.edit
@@ -67,8 +72,7 @@ theme:
 
 extra_javascript:
   - '_static/js/extra.js?v=16'
-  - '_static/js/math-csr.js?math-csr'
-  - 'assets/vendor/mathjax/es5/tex-mml-chtml.js?math-csr'
+  # - '_static/js/math-csr.js?math-csr'
 
 extra_css:
   - '_static/css/extra.css?v=14'
@@ -115,9 +119,9 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home 首页: index.md
+  - 首页: index.md
   - 简介: intro.md
-  - Spec 开发规范:
+  - 开发规范:
     - 开发工作流规范: spec/development.md
     - 技术栈规范: spec/tech-stack.md
     - 代码规范: spec/code.md
