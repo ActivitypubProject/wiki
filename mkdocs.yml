@@ -53,7 +53,7 @@ theme:
         name: Switch to light mode
 
 # Customization
-extra:
+# extra:
   # alternate:
   #   - name: English
   #     link: ./
@@ -61,9 +61,17 @@ extra:
   #   - name: 简体中文
   #     link: /zh/
   #     lang: zh-Hant
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ActivitypubProject
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/ActivitypubProject
+
+extra_javascript:
+  - '_static/js/extra.js?v=16'
+  - '_static/js/math-csr.js?math-csr'
+  - 'assets/vendor/mathjax/es5/tex-mml-chtml.js?math-csr'
+
+extra_css:
+  - '_static/css/extra.css?v=14'
 
 # Extensions
 markdown_extensions:
@@ -108,6 +116,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home 首页: index.md
+  - 简介: intro.md
   - Spec 开发规范:
     - 开发工作流规范: spec/development.md
     - 技术栈规范: spec/tech-stack.md
