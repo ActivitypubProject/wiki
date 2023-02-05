@@ -8,6 +8,8 @@
       
       
       
+        <link rel="canonical" href="https://activitypubproject.github.io/wiki/spec/development/">
+      
       
         <link rel="prev" href="../..">
       
@@ -54,12 +56,16 @@
   
     
     
+      
+    
     
     
     
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -107,6 +113,34 @@
       </div>
     </div>
     
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_3" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_3">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
     
     
       <label class="md-header__button md-icon" for="__search">
@@ -123,10 +157,16 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -152,6 +192,45 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home 首页
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Spec 开发规范
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -164,8 +243,10 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="ActivitypubProject" class="md-nav__button md-logo" aria-label="ActivitypubProject" data-md-component="logo">
       
@@ -210,6 +291,14 @@
       
       <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
+      
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -852,9 +941,9 @@
 
 
 
-<h1 id="git">开发工作流规范(基于Git)</h1>
-<h2 id="_1">开发</h2>
-<h3 id="_2">版本规范</h3>
+<h1 id="git">开发工作流规范(基于Git)<a class="headerlink" href="#git" title="Permanent link">&para;</a></h1>
+<h2 id="_1">开发<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2">版本规范<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <p>前端项目使用<a href="https://semver.org/lang/zh-CN/">语义化版本</a>进行发布:</p>
 <p>版本格式：主版本号.次版本号.修订号，版本号递增规则如下：</p>
 <ol>
@@ -864,22 +953,22 @@
 </ol>
 <p>先行版本号及版本编译元数据可以加到“主版本号.次版本号.修订号”的后面，作为延伸。</p>
 <hr />
-<h3 id="git_1">Git 分支模型</h3>
-<h4 id="master">master分支</h4>
+<h3 id="git_1">Git 分支模型<a class="headerlink" href="#git_1" title="Permanent link">&para;</a></h3>
+<h4 id="master">master分支<a class="headerlink" href="#master" title="Permanent link">&para;</a></h4>
 <p>master分支表示一个稳定的发布版本. 对应GZB的大版本.  </p>
 <ul>
 <li>场景: 前端应用会跟随工作宝版本迭代, 在dev分支测试稳定后, 会合并到master分支, 并使用tag标记应用版本和对应的工作宝版本</li>
-<li>tag规范: <code>v{APP_version}@{GZB_version}</code>, 例如v0.1.0@GZB_6.6</li>
+<li>tag规范: <code>v{APP_version}@{GZB_version}</code>, 例如v0.1.0<a class="magiclink magiclink-github magiclink-mention" href="https://github.com/GZB_6" title="GitHub User: GZB_6">@GZB_6</a>.6</li>
 <li>人员: 由项目负责人进行审核合并, 普通开发者没有权限</li>
 </ul>
-<h4 id="dev">dev分支</h4>
+<h4 id="dev">dev分支<a class="headerlink" href="#dev" title="Permanent link">&para;</a></h4>
 <p>开发者主要工作的分支, 最新的特性或bug修复都会提交到这个分支. 开发者如果在该分支进行了提交，在push到远程之前应该先pull一下， 并尽量使用rebase模式，保证分支的简洁</p>
 <ul>
 <li>命名规范: dev</li>
 <li>tag规范: 在dev分支中也可能会经历发布过程, 例如bug修复版本. 这里同样使用tag来标记这些发布. 例如v0.1.1</li>
 <li>提交规范：如果实在开发分支上进行开发，在推送到远程之前，应该使用<code>git rebase</code>形式更新本地分支。</li>
 </ul>
-<h4 id="feature">feature分支</h4>
+<h4 id="feature">feature分支<a class="headerlink" href="#feature" title="Permanent link">&para;</a></h4>
 <p>涉及多人协作或者大功能的开发, 应该从dev分支checkout出独立的feature分支, 避免干扰dev分支</p>
 <ul>
 <li>场景:</li>
@@ -898,11 +987,11 @@
 <li>合并方式</li>
 <li>不要使用fast-forward. 这样可以在分支图上查看到分支历史</li>
 </ul>
-<h4 id="preview">preview分支</h4>
+<h4 id="preview">preview分支<a class="headerlink" href="#preview" title="Permanent link">&para;</a></h4>
 <p>临时的预览分支, preview分支用于临时合并feature分支, 这其中可能会修复某些bug或者冲突. 可以选择性地将这些提交cherrypick回feature分支. 当预览结束后就可以销毁preview分支</p>
-<h4 id="release">release分支</h4>
+<h4 id="release">release分支<a class="headerlink" href="#release" title="Permanent link">&para;</a></h4>
 <p>release分支有两种使用策略，第一种遵循<code>gitFlow</code>流程, 第二种是目前后端团队使用的策略，为了配合后端工作，我们主要使用第二种</p>
-<h4 id="git-flow-release">git flow 风格的release分支</h4>
+<h4 id="git-flow-release">git flow 风格的release分支<a class="headerlink" href="#git-flow-release" title="Permanent link">&para;</a></h4>
 <p>当前前端应用的稳定版本和GZB版本绑定. release分支不一定存在, 一般情况下, 只会在前端版本稳定后, 将其合并到master, 并创建tag标记. 而只有需要为指定的正式版本修复bug时才会创建release分支</p>
 <p><img alt="release branch" src="assets/release-branch.png" /></p>
 <ul>
@@ -912,7 +1001,7 @@
 <li>如果对应bug可以在dev分支直接被修复, 可以先提交到dev分支(或者已经修复了), 然后再cherrypick到release分支</li>
 <li>如果bug在新版本无法复现. 比如新版本升级了依赖. 那么在release分支直接修复即可</li>
 </ul>
-<h4 id="release_1">自定义风格release分支</h4>
+<h4 id="release_1">自定义风格release分支<a class="headerlink" href="#release_1" title="Permanent link">&para;</a></h4>
 <p><img alt="release branch" src="assets/release-branch2.png" /></p>
 <p>当要发布一个工作宝对应的版本时（或者一开始开发时）从dev分支checkout出一个开发分支，后续需要对外发布时，将dev分支合并到release分支, 并打上版本tag. 后面会介绍到后端开发和自动交付机制这种分支模式。</p>
 <p>这一种使用策略. gzb后端在使用, 为了配合后端工作, 我们也推荐使用这种方式</p>
@@ -926,7 +1015,7 @@
 <li>专门用于发布, 开发者容易过滤变更的内容</li>
 </ul>
 <hr />
-<h3 id="_3">提交信息规范</h3>
+<h3 id="_3">提交信息规范<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
 <p>一个好的提交信息, 会帮助你提高项目的整体质量. </p>
 <ul>
 <li>why</li>
@@ -949,15 +1038,15 @@
 </ul>
 </li>
 </ul>
-<h4 id="_4">格式</h4>
+<h4 id="_4">格式<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
 <p>我们采用angular的提交规范, 在这个规范的基础上支持(可选)<code>emoji</code>进行修饰</p>
-<pre><code class="language-shell">&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
-
-&lt;body&gt;
-
-&lt;footer&gt;
-</code></pre>
-<h5 id="header">header</h5>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&lt;type&gt;<span class="o">(</span>&lt;scope&gt;<span class="o">)</span>:<span class="w"> </span>&lt;subject&gt;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>&lt;body&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>&lt;footer&gt;
+</code></pre></div>
+<h5 id="header">header<a class="headerlink" href="#header" title="Permanent link">&para;</a></h5>
 <blockquote>
 <p>如果提交时feature或者fix(已发布的版本), 这些提交信息应该出现在CHANGELOG</p>
 </blockquote>
@@ -980,24 +1069,24 @@
 <li>scope: 可选. 说明提交影响的范围. 例如样式, 后端接口, 逻辑层等等</li>
 <li>Subject: 提交目的的简短描述, 动词开头,  不超过80个字符. 不要为了提交而提交</li>
 </ul>
-<h5 id="body">body</h5>
+<h5 id="body">body<a class="headerlink" href="#body" title="Permanent link">&para;</a></h5>
 <p>可选. 对本次提交的详细描述. 如果变动很简单, 可以省略</p>
-<h5 id="footer">footer</h5>
+<h5 id="footer">footer<a class="headerlink" href="#footer" title="Permanent link">&para;</a></h5>
 <p>可选. 只用于说明不兼容变动(break change)和关闭 Issue(如果使用使用gitlab或github管理bug的话)</p>
-<h5 id="_5">模板和示例</h5>
-<pre><code># 50-character subject line  
-#  
-# 72-character wrapped longer description. This should answer:  
-#  
-# * Why was this change necessary?  
-# * How does it address the problem?  
-# * Are there any side effects?  
-#  
-# Include a link to the ticket, if any.
-</code></pre>
+<h5 id="_5">模板和示例<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a># 50-character subject line  
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>#  
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a># 72-character wrapped longer description. This should answer:  
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>#  
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a># * Why was this change necessary?  
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a># * How does it address the problem?  
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a># * Are there any side effects?  
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>#  
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a># Include a link to the ticket, if any.
+</code></pre></div>
 <p>参考<a href="https://github.com/vuejs/vue/commits/dev">vue</a>, <a href="https://github.com/angular/angular/commits/master">angular</a>等开源库项目的提交</p>
 <hr />
-<h3 id="bug">BUG 处理规则</h3>
+<h3 id="bug">BUG 处理规则<a class="headerlink" href="#bug" title="Permanent link">&para;</a></h3>
 <p>对于测试，目前会经历两个阶段</p>
 <ul>
 <li>冒烟测试：在对测试正式发版之前会要求对代码进行自测，及冒烟测试。</li>
@@ -1011,7 +1100,7 @@
 <p>BUG的数量可能会和个人的KPI挂钩。所以要谨慎自测</p>
 </blockquote>
 <hr />
-<h3 id="_6">如何处理定制化需求</h3>
+<h3 id="_6">如何处理定制化需求<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <ul>
 <li>痛点</li>
 <li>对于定制化需求, 并不会引入到正规的代码流中, 一般情况下会checkout出一个分支, 来专门做这里定制化需求, 然后单独发版. 使用分支模式的缺点有:<ul>
@@ -1036,7 +1125,7 @@
 </li>
 </ul>
 <hr />
-<h2 id="_7">发布工作流</h2>
+<h2 id="_7">发布工作流<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <ul>
 <li>流程</li>
 <li>进行代码变更</li>
@@ -1051,9 +1140,9 @@
 <li>使用<a href="https://github.com/carney520/jm-deploy">jm-deploy release</a>自动化发布并生成CHANGELOG.md</li>
 </ul>
 <hr />
-<h2 id="_8">持续集成</h2>
+<h2 id="_8">持续集成<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <p>前端项目基于公司内部部署的gitlab-ci来进行持续部署。包含以下阶段(stage):</p>
-<h3 id="_9">持续集成阶段</h3>
+<h3 id="_9">持续集成阶段<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
 <ul>
 <li>检查： 包括单元测试和代码lint。</li>
 <li>所有push到版本库的代码都会跑这个阶段. 可以在提交title中包含<code>[ci skip]</code>来跳过这个阶段</li>
@@ -1062,7 +1151,7 @@
 <li>发布: 将前端的构建结果进行交付/发布</li>
 <li>只有打上版本tag的提交或者release分支会跑发布任务. 详见<a href="https://github.com/carney520/jm-deploy">jm-deploy</a></li>
 </ul>
-<h3 id="_10">版本类型</h3>
+<h3 id="_10">版本类型<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
 <p>根据交付或部署的环境， 可以分为以下类型：</p>
 <ul>
 <li>preview: 临时版本. 用于预览和调试. 主要在联调环境使用. 形式为:</li>
@@ -1075,12 +1164,12 @@
 <blockquote>
 <p>在实际开发中，可能不会严格区分这些版本，而是项目一开始就会有一个release分支，在这个release分支里进行发布</p>
 </blockquote>
-<h3 id="_11">交付</h3>
+<h3 id="_11">交付<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
 <p>目前前端资源是跟随后端Jar/War包一起部署的，通过将构建结果推送到一个’git发布版本库’的形式实现.</p>
-<h4 id="why">why</h4>
+<h4 id="why">why<a class="headerlink" href="#why" title="Permanent link">&para;</a></h4>
 <p>由于公司ToB业务. 部署环境差异较大, 也有可能无法连接外网. 所以没有统一/独立的部署方式和伺服服务器, 更没有CDN. 这要求我们的项目是可以独立部署, 自包含的. 前端项目不能独立存在和运行, 而是内嵌到后端项目中. 由对应后端项目来管理和伺服静态资源</p>
-<h4 id="_12">方法</h4>
-<h5 id="_13">前端</h5>
+<h4 id="_12">方法<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h4>
+<h5 id="_13">前端<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h5>
 <p>发布版本库根据前面的版本类型可以划分为两种类型的分支
 - 开发分支
   - preview和test总是线性迭代的, 对于这个类型的发布总会推送到开发分支. 后端开发者可以通过这个分支获取到最新的可交付代码
@@ -1097,7 +1186,7 @@
 <li>release分支从最新的开发分支中checkout出来. 这样可以保证拉取到其他未更新的项目</li>
 </ul>
 <p>详细参考<a href="https://github.com/carney520/jm-deploy">jm-deploy</a></p>
-<h5 id="_14">后端</h5>
+<h5 id="_14">后端<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h5>
 <p>后端项目使用git submodule的方式关联前端的发布版本库. 这也意味着, 如果发布版本库有变动, 后端开发人员需要手动更新submodule到指定提交记录. </p>
 <blockquote>
 <p>有没有更好的方式? 还如容易出现错误. 可以通过git hook自动更新submodule. 检查代码当前分支是否是发布分支, 确定拉取发布分支还是开发分支(表示最新版本). 如果未找到对应发布分支, 则回退拉取开发分支</p>
@@ -1106,66 +1195,66 @@
   - 使用git版本库的方式可以记录发布记录
   - 方便后端本地开发, 直接可以通过git工具拉取前端代码
   - 方便人工干预</p>
-<h4 id="_15">其他参考方案</h4>
+<h4 id="_15">其他参考方案<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h4>
 <ul>
 <li>使用npm管理前端发布 + HTTP下载</li>
 <li>本地文件系统维护</li>
 </ul>
-<h3 id="_16">模板</h3>
+<h3 id="_16">模板<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
 <p>gitlab-ci通过定义在根目录下的<code>gitlab-ci.yml</code>进行定义， 详见<a href="https://about.gitlab.com/product/continuous-integration/">gitlab文档</a></p>
-<pre><code class="language-yaml">before_script:
-  - echo &quot;[GZB front-end CI]&quot;
-  - nvm install 10
-  - npm i -g yarn
-  - yarn
-
-cache:
-  key: 'ALWAYS'
-  paths:
-    - node_modules/
-    - dist/
-
-stages:
-  - test
-  - build
-  - deploy
-
-.common: &amp;common
-  tags:
-    - node
-
-.release_ref: &amp;release_ref
-  - /^release\/.*$/ # release 分支
-  - /^v\d+\.\d+\.\d+.*$/ # release tag
-
-# 单元测试
-test:
-  &lt;&lt;: *common
-  stage: test
-  script: echo &quot;No tests yet&quot;
-  # 避免被触发两次
-  except:
-    - /^v\d+\.\d+\.\d+.*$/ # release tag
-
-# 构建
-build:
-  &lt;&lt;: *common
-  stage: build
-  script: yarn build --cache-by-npm-version
-  only: *release_ref
-  artifacts:
-    paths:
-      - dist/
-    expire_in: 1 week
-
-# 部署前端资源
-deploy:
-  &lt;&lt;: *common
-  stage: deploy
-  script: yarn deploy
-  only: *release_ref
-</code></pre>
-<h2 id="_17">扩展</h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">before_script</span><span class="p">:</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">echo &quot;[GZB front-end CI]&quot;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">nvm install 10</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">npm i -g yarn</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yarn</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="nt">cache</span><span class="p">:</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;ALWAYS&#39;</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span><span class="nt">paths</span><span class="p">:</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">node_modules/</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dist/</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nt">stages</span><span class="p">:</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">test</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">build</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deploy</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="nt">.common</span><span class="p">:</span><span class="w"> </span><span class="nl">&amp;common</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">  </span><span class="nt">tags</span><span class="p">:</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">node</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="nt">.release_ref</span><span class="p">:</span><span class="w"> </span><span class="nl">&amp;release_ref</span>
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/^release\/.*$/</span><span class="w"> </span><span class="c1"># release 分支</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/^v\d+\.\d+\.\d+.*$/</span><span class="w"> </span><span class="c1"># release tag</span>
+<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a>
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="c1"># 单元测试</span>
+<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="nt">test</span><span class="p">:</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="w">  </span><span class="nt">&lt;&lt;</span><span class="p">:</span><span class="w"> </span><span class="nv">*common</span>
+<a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">test</span>
+<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">echo &quot;No tests yet&quot;</span>
+<a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="w">  </span><span class="c1"># 避免被触发两次</span>
+<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="w">  </span><span class="nt">except</span><span class="p">:</span>
+<a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a><span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/^v\d+\.\d+\.\d+.*$/</span><span class="w"> </span><span class="c1"># release tag</span>
+<a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a>
+<a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="c1"># 构建</span>
+<a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="nt">build</span><span class="p">:</span>
+<a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="w">  </span><span class="nt">&lt;&lt;</span><span class="p">:</span><span class="w"> </span><span class="nv">*common</span>
+<a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">build</span>
+<a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yarn build --cache-by-npm-version</span>
+<a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a><span class="w">  </span><span class="nt">only</span><span class="p">:</span><span class="w"> </span><span class="nv">*release_ref</span>
+<a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="w">  </span><span class="nt">artifacts</span><span class="p">:</span>
+<a id="__codelineno-2-42" name="__codelineno-2-42" href="#__codelineno-2-42"></a><span class="w">    </span><span class="nt">paths</span><span class="p">:</span>
+<a id="__codelineno-2-43" name="__codelineno-2-43" href="#__codelineno-2-43"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">dist/</span>
+<a id="__codelineno-2-44" name="__codelineno-2-44" href="#__codelineno-2-44"></a><span class="w">    </span><span class="nt">expire_in</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1 week</span>
+<a id="__codelineno-2-45" name="__codelineno-2-45" href="#__codelineno-2-45"></a>
+<a id="__codelineno-2-46" name="__codelineno-2-46" href="#__codelineno-2-46"></a><span class="c1"># 部署前端资源</span>
+<a id="__codelineno-2-47" name="__codelineno-2-47" href="#__codelineno-2-47"></a><span class="nt">deploy</span><span class="p">:</span>
+<a id="__codelineno-2-48" name="__codelineno-2-48" href="#__codelineno-2-48"></a><span class="w">  </span><span class="nt">&lt;&lt;</span><span class="p">:</span><span class="w"> </span><span class="nv">*common</span>
+<a id="__codelineno-2-49" name="__codelineno-2-49" href="#__codelineno-2-49"></a><span class="w">  </span><span class="nt">stage</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">deploy</span>
+<a id="__codelineno-2-50" name="__codelineno-2-50" href="#__codelineno-2-50"></a><span class="w">  </span><span class="nt">script</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yarn deploy</span>
+<a id="__codelineno-2-51" name="__codelineno-2-51" href="#__codelineno-2-51"></a><span class="w">  </span><span class="nt">only</span><span class="p">:</span><span class="w"> </span><span class="nv">*release_ref</span>
+</code></pre></div>
+<h2 id="_17">扩展<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.zhihu.com/question/21209619">如何写好 Git commit log?</a></li>
 <li><a href="https://gitmoji.carloscuesta.me">提交信息emoji规范</a></li>
@@ -1186,9 +1275,52 @@ deploy:
           
         </div>
         
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
       </main>
       
         <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home 首页" rel="prev">
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Previous
+                </span>
+                Home 首页
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../tech-stack/" class="md-footer__link md-footer__link--next" aria-label="Next: 技术栈规范" rel="next">
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Next
+                </span>
+                技术栈规范
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1202,6 +1334,21 @@ deploy:
   
 </div>
       
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ActivitypubProject" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -1211,7 +1358,7 @@ deploy:
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.db81ec45.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.6df46069.min.js"></script>
