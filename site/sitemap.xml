@@ -11,7 +11,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://activitypubproject.github.io/wiki/project-structure/</loc>
+         <loc>https://activitypubproject.github.io/wiki/development-guide/activitypub/</loc>
+         <lastmod>2023-02-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://activitypubproject.github.io/wiki/development-guide/project-structure/</loc>
          <lastmod>2023-02-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
