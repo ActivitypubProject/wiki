@@ -14,70 +14,70 @@
 
 - ✅ Typescript
 - Javascript
-  - 需要使用jsdoc进行注释, 推荐[渐进式迁移到Typescript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html). 在无法运行Typescript的环境也推荐该注释方式
+    - 需要使用jsdoc进行注释, 推荐[渐进式迁移到Typescript](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html). 在无法运行Typescript的环境也推荐该注释方式
 
 ## 框架
 - ✅ React
 - 备选
-  - preact
-  - react-native
-  - taro(小程序开发)
+    - preact
+    - react-native
+    - taro(小程序开发)
 - 生态
-  - 路由
-    - react-router
-  - 状态管理
-    - ✅ react hooks
-    - ✅ mobx
-    - redux 由于冗余的模板代码，以及不利于Typescript约束，我们已经停止使用该方式.
-  - UI框架
-    - ✅ antd
-      - antd-mobile
-    - 备选
-      - pile
-      - ionic-react
-  - 开发模式
-    - ✅ react hooks
-  - 异步处理
-    - rxjs
-  - 数据可视化
-    - rechart
-  - websocket
-    - sockjs
-  - 地图
-    - react-bdmap
-  - 图标
-    - ✅ svg: 配合`svgr`转换为react组件
-    - iconfont
+    - 路由
+        - react-router
+    - 状态管理
+        - ✅ react hooks
+        - ✅ mobx
+        - redux 由于冗余的模板代码，以及不利于Typescript约束，我们已经停止使用该方式.
+    - UI框架
+        - ✅ antd
+            - antd-mobile
+        - 备选
+            - pile
+            - ionic-react
+    - 开发模式
+        - ✅ react hooks
+    - 异步处理
+        - rxjs
+    - 数据可视化
+        - rechart
+    - websocket
+        - sockjs
+    - 地图
+        - react-bdmap
+    - 图标
+        - ✅ svg: 配合`svgr`转换为react组件
+        - iconfont
 
 ## 样式
 
 - 命名规范
-  - BEM
+    - BEM
 - ✅ CSS-in-js
-  - styled-components
+    - styled-components
 - pre-compiler
-  - SCSS
+    - SCSS
 - post-compiler
-  - PostCSS + env
+    - PostCSS + env
 
 ## QA
 
 - 测试
-  - 测试框架
-    - [jest](https://jestjs.io/docs/en/tutorial-react)
-  - 组件测试
-    - [react-testing-library](https://github.com/kentcdodds/react-testing-library)
-    - enzyme: react组件测试
-  - hooks 测试
-    - [react-hooks-testing-library](https://github.com/mpeyper/react-hooks-testing-library)
-  - puppeteer: headless chrome
+    - 测试框架
+        - [jest](https://jestjs.io/docs/en/tutorial-react)
+    - 组件测试
+        - [react-testing-library](https://github.com/kentcdodds/react-testing-library)
+        - enzyme: react组件测试
+    - hooks 测试
+        - [react-hooks-testing-library](https://github.com/mpeyper/react-hooks-testing-library)
+    - puppeteer: headless chrome
 
 - lint
-  - tslint
-  - stylelint
+    - tslint
+    - stylelint
 
 - 代码格式化
-  - ✅ prettier
+    - ✅ prettier
 
 ## 构建(项目构建统一使用@gdjiami/cli)
 
@@ -114,7 +114,6 @@
 
 - docz
 - ✅ storybook 
-- draw.io: 绘图工具
 
 ## 持续集成
 
@@ -123,5 +122,5 @@
 ## 版本管理
 
 - git
-  - fork(可视化客户端)
+    - fork(可视化客户端)
 

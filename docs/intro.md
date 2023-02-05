@@ -1,11 +1,10 @@
-# Intro
+# 简介
 
-## Commands
+> TODO: 文档待完善
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+
+
+
 
 ## Material color palette 颜色主题
 
