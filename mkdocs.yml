@@ -121,6 +121,7 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 简介: intro.md
+  - 项目架构: project-structure.md
   - 开发规范:
     - 开发工作流规范: spec/development.md
     - 技术栈规范: spec/tech-stack.md
