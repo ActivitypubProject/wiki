@@ -9,7 +9,9 @@
 ### Web
 
 前端：
-[Next.js](https://nextjs.org/) [中文官网](https://www.nextjs.cn/)
+Next.js： [官网](https://nextjs.org/) [中文官网](https://www.nextjs.cn/)
+
+
 ReactJS
 
 
