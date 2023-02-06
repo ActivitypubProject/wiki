@@ -4,13 +4,15 @@
 
 ## 项目 1
 
-
+原型设计：[Axure RP](https://www.axure.com/)
 
 ### Web
 
-前端：ReactJS
+前端：
+[Next.js](https://nextjs.org/) [中文官网](https://www.nextjs.cn/)
+ReactJS
 
-原型设计：[Axure RP](https://www.axure.com/)
+
 
 ### iOS
 
