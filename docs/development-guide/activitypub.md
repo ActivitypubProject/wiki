@@ -52,6 +52,8 @@ https://taoofmac.com/space/protocols/activitypub
 
 ## 相关语言的包
 
+ [A general Python ActivityPub library - Python](https://github.com/dsblank/activitypub)    
+
 [minimal-activitypub - PyPI](https://pypi.org/project/minimal-activitypub/)
 
 [activitypub - Go Packages](https://pkg.go.dev/github.com/peopledata/oak/pkg/activitypub)

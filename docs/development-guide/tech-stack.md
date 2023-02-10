@@ -13,31 +13,24 @@ With pages and comments open: https://udar54.axshare.com/#g=14
 ### Web
 
 前端：
-
-  Next.js： [官网](https://nextjs.org/) [中文官网](https://www.nextjs.cn/)
-
-
-  ReactJS
+	ReactJS
+	Next.js： [官网](https://nextjs.org/) [中文官网](https://www.nextjs.cn/)
 
 
 
 ### iOS
 
 Swift
-
 React Native
 
 ### Android
 
 Kotlin
-
-
+React Native
 
 ### Windows
 
 QT
-
-
 
 
 
