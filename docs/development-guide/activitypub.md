@@ -58,3 +58,10 @@ https://taoofmac.com/space/protocols/activitypub
 
 [activitypub - Go Packages](https://pkg.go.dev/github.com/peopledata/oak/pkg/activitypub)
 
+## 开发
+
+mastodon instance list
+
+https://joinmastodon.org/servers
+
+https://instances.social/
