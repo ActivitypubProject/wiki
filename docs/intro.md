@@ -4,6 +4,7 @@
 
 
 
+https://fedi.tips/ 一个非官方的非技术指南，关于 Mastodon 和 Fediverse。
 
 
 ## Material color palette 颜色主题
