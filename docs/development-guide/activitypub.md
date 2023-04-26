@@ -6,6 +6,20 @@ ActivityPub 官网：https://activitypub.rocks/
 
 ActivityPub Tutorial W3C Recommendation：https://www.w3.org/TR/activitypub/
 
+
+
+https://github.com/BasixKOR/awesome-activitypub
+
+https://relay.mstdn.one/
+
+https://social.edu.ci/
+
+https://diaspora.fediverse.observer/
+
+https://diasporafoundation.org/
+
+
+
 https://jchu.cc/2021/07/27-activitypub.html
 
 [Guide for new ActivityPub implementers](https://socialhub.activitypub.rocks/t/guide-for-new-activitypub-implementers/479)
@@ -36,7 +50,7 @@ https://jchu.cc/2021/07/27-activitypub.html
 
 联邦宇宙 ：https://fediverse.party/
 
-  
+  https://fediverse.wordpress.com/
 
 ## Servers
 
